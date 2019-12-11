@@ -14,6 +14,10 @@ html {
   position: relative;
 }
 
+#phone-link {
+  display: block;
+}
+
 #navbar {
   background: #096192;
 }
@@ -43,6 +47,10 @@ html {
 
 #navbar-right a:hover {
   background: #005582;
+}
+
+#phone-link a:hover {
+  background: #cecece;
 }
 
 .flex-center {
