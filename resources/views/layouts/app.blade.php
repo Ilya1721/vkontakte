@@ -31,7 +31,7 @@
 </head>
 <body>
   <div id="app">
-    <nav class="navbar navbar-expand-md navbar-dark bg-primary shadow-sm">
+    <nav id="navbar" class="navbar navbar-expand-md navbar-dark shadow-sm">
       <div class="container">
         <a id="navbar-brand" class="navbar-brand" href="{{ url('/') }}">
             <img src="/img/vk_brand.svg" />
@@ -53,14 +53,16 @@
           <ul class="navbar-nav ml-auto" id="navbar-right">
             <!-- Authentication Links -->
             @guest
-              <li class="nav-item">
-                  <a class="nav-link text-white" href="{{ route('login') }}">
+              <li class="nav-item d-block">
+                  <a class="nav-link text-white"
+                   href="{{ route('login') }}">
                     {{ __('Login') }}
                   </a>
               </li>
               @if (Route::has('register'))
-                  <li class="nav-item">
-                      <a class="nav-link text-white" href="{{ route('register') }}">
+                  <li class="nav-item d-block">
+                      <a class="nav-link text-white"
+                       href="{{ route('register') }}">
                         {{ __('Register') }}
                       </a>
                   </li>
