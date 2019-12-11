@@ -2,7 +2,8 @@
 @section('content')
 <div class="content">
   <div class="title">
-    {{ config('app.name') }}
+    <img id="left-phone" src="/img/android_phone.png" />
+    <img src="/img/iphone_phone.png" />
   </div>
 </div>
 @endsection

@@ -31,10 +31,10 @@
 </head>
 <body>
   <div id="app">
-    <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary shadow-sm">
       <div class="container">
-        <a class="navbar-brand" href="{{ url('/') }}">
-            {{ config('app.name') }}
+        <a id="navbar-brand" class="navbar-brand" href="{{ url('/') }}">
+            <img src="/img/vk_brand.svg" />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse"
          data-target="#navbarSupportedContent"
@@ -50,17 +50,17 @@
           </ul>
 
           <!-- Right Side Of Navbar -->
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto" id="navbar-right">
             <!-- Authentication Links -->
             @guest
               <li class="nav-item">
-                  <a class="nav-link" href="{{ route('login') }}">
+                  <a class="nav-link text-white" href="{{ route('login') }}">
                     {{ __('Login') }}
                   </a>
               </li>
               @if (Route::has('register'))
                   <li class="nav-item">
-                      <a class="nav-link" href="{{ route('register') }}">
+                      <a class="nav-link text-white" href="{{ route('register') }}">
                         {{ __('Register') }}
                       </a>
                   </li>
