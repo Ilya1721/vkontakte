@@ -2,7 +2,7 @@
 @section('content')
 <div class="content">
   <div class="title">
-    Laravel
+    {{ config('app.name') }}
   </div>
 </div>
 @endsection
