@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="csrf-token" content="{{ csrf_token() }}">
-  <title>{{ config('app.name') }}</title>
+  <title>Добро пожаловать</title>
   <!-- Fonts -->
   <link rel="dns-prefetch" href="//fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
@@ -95,6 +95,10 @@
         @yield('content')
     </main>
 
+    <footer id="footer" class="text-center w-100 py-5">
+      <hr />
+      © 2019 Copyright:
+    </footer>
   </div>
 </body>
 </html>

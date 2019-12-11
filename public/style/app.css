@@ -1,7 +1,23 @@
 html, body {
     font-family: 'Nunito', sans-serif;
-    height: 100vh;
+    background: #dbdbdb;
+    min-height: 100%;
     margin: 0;
+}
+
+main {
+  margin-bottom: 9rem;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  background: #dbdbdb;
 }
 
 #left-phone {
