@@ -44,11 +44,10 @@
       </div>
       <div class="col-3">
         <div id="photo">
-          <div id="img">
-            <a href="#">
-              Загрузить фотографию
-            </a>
-          </div>
+          <img src="/img/camera.png" />
+          <a id="img-link" href="#">
+            Загрузить фотографию
+          </a>
         </div>
       </div>
       <div class="col-6">

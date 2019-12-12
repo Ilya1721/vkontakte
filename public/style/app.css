@@ -22,11 +22,16 @@ html {
   border-radius: 5px;
 }
 
-#photo #img {
-  background-image: url('/img/camera.png');
+#photo img {
   height: 80%;
   width: 90%;
-  margin: 11px 11px 10px 11px;
+  margin: 11px 11px -35px 11px;
+}
+
+#img-link {
+  margin: 10px 10px 5px 35px;
+  color: #28548b;
+  font-size: 0.9rem;
 }
 
 #left-navbar a {
