@@ -1,6 +1,6 @@
 html, body {
     font-family: 'Nunito', sans-serif;
-    background: #dbdbdb;
+    background: #edeef0;
     min-height: 100%;
     margin: 0;
 }
@@ -14,18 +14,29 @@ html {
   position: relative;
 }
 
+#left-navbar a {
+  color: #28548b;
+  font-size: 0.9rem;
+  padding: 4px 40px 4px 7px;
+}
+
+#left-navbar a:hover {
+  background: #e1e5eb;
+  text-decoration: none;
+}
+
 #phone-link {
   display: block;
 }
 
 #navbar {
-  background: #096192;
+  background: #4a76a8;
 }
 
 #footer {
   position: absolute;
   bottom: 0;
-  background: #dbdbdb;
+  background: #edeef0;
 }
 
 #left-phone {
@@ -33,12 +44,13 @@ html {
 }
 
 #app {
-  background: #dbdbdb;
+  background: #edeef0;
   min-height: 100%;
 }
 
 #navbar-brand img {
   width: 3rem;
+  margin-left: 65px;
 }
 
 #navbar-right {
@@ -46,7 +58,7 @@ html {
 }
 
 #navbar-right a:hover {
-  background: #005582;
+  background: #3d6898;
 }
 
 #phone-link a:hover {

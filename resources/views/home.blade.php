@@ -2,22 +2,27 @@
 
 @section('content')
 <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Dashboard</div>
+    <div class="row mx-5">
+      <div class="col-3">
+        <ul class="navbar-nav" id="left-navbar">
+          <li class="nav-item d-block">
+            <a href="#">
+              Моя страница
+            </a>
+          </li>
+          <li class="nav-item d-block">
+            <a href="#">
+              Моя страница
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-3">
 
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
+      </div>
+      <div class="col-6">
 
-                    You are logged in!
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
 </div>
 @endsection
