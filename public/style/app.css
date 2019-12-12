@@ -17,7 +17,11 @@ html {
 #left-navbar a {
   color: #28548b;
   font-size: 0.9rem;
-  padding: 4px 40px 4px 7px;
+  padding: 4px 40px 4px 0px;
+}
+
+#left-navbar li {
+  margin-top: 7px;
 }
 
 #left-navbar a:hover {

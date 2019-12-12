@@ -12,7 +12,32 @@
           </li>
           <li class="nav-item d-block">
             <a href="#">
-              Моя страница
+              Новости
+            </a>
+          </li>
+          <li class="nav-item d-block">
+            <a href="#">
+              Друзья
+            </a>
+          </li>
+          <li class="nav-item d-block">
+            <a href="#">
+              Сообщества
+            </a>
+          </li>
+          <li class="nav-item d-block">
+            <a href="#">
+              Фотографии
+            </a>
+          </li>
+          <li class="nav-item d-block">
+            <a href="#">
+              Музыка
+            </a>
+          </li>
+          <li class="nav-item d-block">
+            <a href="#">
+              Видео
             </a>
           </li>
         </ul>
