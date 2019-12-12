@@ -14,6 +14,21 @@ html {
   position: relative;
 }
 
+#photo {
+  width: 225px;
+  height: 250px;
+  background: #fff;
+  border: 1px solid #e3e4e8;
+  border-radius: 5px;
+}
+
+#photo #img {
+  background-image: url('/img/camera.png');
+  height: 80%;
+  width: 90%;
+  margin: 11px 11px 10px 11px;
+}
+
 #left-navbar a {
   color: #28548b;
   font-size: 0.9rem;
