@@ -48,6 +48,9 @@
           <a id="img-link" href="#">
             Загрузить фотографию
           </a>
+          <a id="edit-link" href="#">
+            Редактировать
+          </a>
         </div>
       </div>
       <div class="col-6">
