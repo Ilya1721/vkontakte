@@ -49,7 +49,14 @@
       </div>
     </div>
     <div class="col-2">
-
+      <div id="friend-category" class="container py-2">
+        <a id="category-link" href="#">
+          Мои друзья
+        </a>
+        <a id="category-link" href="#">
+          Поиск друзей
+        </a>
+      </div>
     </div>
   </div>
 </div>
