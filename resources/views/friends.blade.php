@@ -13,9 +13,9 @@
           <span id="friend-search-line">
             Поиск друзей
           </span>
-          <span id="friend-search-link">
+          <a id="friend-search-link" href="#">
             Расширенный поиск
-          </span>
+          </a>
         </div>
       </div>
     </div>

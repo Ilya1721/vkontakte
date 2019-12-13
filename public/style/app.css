@@ -14,6 +14,15 @@ html {
   position: relative;
 }
 
+#friend-search-link {
+  color: #28548b;
+  font-size: 0.9rem;
+}
+
+#friend-search-line {
+  color: #000;
+}
+
 #friend-list-header {
   background: #fafbfc;
   min-width: 200px;
