@@ -62,6 +62,7 @@
           <a id="change-status" href="#">
             изменить статус
           </a>
+          <hr id="horizontal-line" />
         </div>
       </div>
     </div>
