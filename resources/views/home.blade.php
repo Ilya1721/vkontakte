@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="row mx-5">
-      <div class="col-3">
+      <div class="col-2">
         <ul class="navbar-nav" id="left-navbar">
           <li class="nav-item d-block">
             <a href="#">
@@ -53,9 +53,9 @@
           </a>
         </div>
       </div>
-      <div class="col-6">
+      <div class="col-7">
         <div id="personal-data">
-          <div id="name-status">
+          <div id="name-status" class="d-flex justify-content-between">
             <span id="name">Илья Петров</span>
             <span id="status">Online</span>
           </div>
@@ -63,11 +63,11 @@
             изменить статус
           </a>
           <hr id="horizontal-line" />
-          <div id="birthday">
+          <div id="birthday" class="d-flex justify-content-between">
             <span id="birth-line">
               День рождения:
             </span>
-            <span id="data-div">
+            <span>
               <a id="data" href="#">
                 10 августа
               </a>
@@ -77,26 +77,30 @@
             </span>
           </div>
           <div id="education">
-            <span id="edu-line">
-              Образование
-            </span>
-            <a id="edu-edit" href="#">
-              Редактировать
-            </a>
+            <div class="d-flex justify-content-between">
+              <span id="edu-line">
+                Образование
+              </span>
+              <a id="edu-edit" href="#">
+                Редактировать
+              </a>
+            </div>
             <hr />
-            <span id="edu-info">
+            <span id="edu-info" class="d-flex justify-content-center">
               Информация отсутствует
             </span>
           </div>
           <div id="personal-info">
-            <span id="per-line">
-              Личная информация
-            </span>
-            <a id="per-edit" href="#">
-              Редактировать
-            </a>
+            <div class="d-flex justify-content-between">
+              <span id="per-line">
+                Личная информация
+              </span>
+              <a id="per-edit" href="#">
+                Редактировать
+              </a>
+            </div>
             <hr />
-            <span id="per-info">
+            <span id="per-info" class="d-flex justify-content-center">
               Информация отсутствует
             </span>
           </div>

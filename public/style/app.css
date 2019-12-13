@@ -25,13 +25,11 @@ html {
 }
 
 #per-edit {
-  margin-left: 174px;
   color: #28548b;
 }
 
 #per-info {
   #color: #9393af;
-  margin-left: 125px;
   color: #9393af;
 }
 
@@ -47,16 +45,10 @@ html {
 
 #edu-info {
   color: #9393af;
-  margin-left: 125px;
 }
 
 #edu-edit {
-  margin-left: 220px;
   color: #28548b;
-}
-
-#data-div {
-  margin-left: 30px;
 }
 
 #data {
@@ -93,13 +85,11 @@ html {
 
 #name-status {
   padding: 10px 15px 0px 15px;
-  margin: 0;
 }
 
 #status {
   font-size: 0.9rem;
   color: #9393af;
-  margin-left: 250px;
 }
 
 #name {
@@ -118,7 +108,7 @@ html {
 }
 
 #personal-data {
-  width: 450px;
+  width: 530px;
   height: 350px;
   background: #fff;
   border: 1px solid #e3e4e8;
