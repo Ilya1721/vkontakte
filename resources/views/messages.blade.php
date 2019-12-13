@@ -15,6 +15,9 @@
         <div class="row my-3 mx-2">
           <div id="message" class="container">
             <a href="#">
+              <span id="message-body-link"></span>
+            </a>
+            <a href="#">
               <img id="sender-img" src="https://sun6-19.userapi.com/c836332/v836332139/2e2e0/RNYjGOkSsyw.jpg?ava=1" />
             </a>
             <div class="d-flex pl-3 flex-row justify-content-between">
@@ -24,6 +27,9 @@
               <span id="send-date">
                 вчера
               </span>
+            </div>
+            <div id="message-body" class="d-flex pl-3 flex-row">
+              Привет, как дела?
             </div>
           </div>
         </div>
