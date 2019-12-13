@@ -54,7 +54,9 @@
         </div>
       </div>
       <div class="col-6">
+        <div id="personal-data">
 
+        </div>
       </div>
     </div>
 </div>

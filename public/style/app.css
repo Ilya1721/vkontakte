@@ -14,6 +14,24 @@ html {
   position: relative;
 }
 
+#logout-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+#logout {
+  margin-right: 100px;
+}
+
+#personal-data {
+  width: 450px;
+  height: 150px;
+  background: #fff;
+  border: 1px solid #e3e4e8;
+  border-radius: 5px;
+}
+
 #photo {
   width: 225px;
   height: 250px;
