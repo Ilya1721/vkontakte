@@ -14,8 +14,22 @@ html {
   position: relative;
 }
 
+#change-status {
+  font-size: 0.9rem;
+  color: #9393af;
+  display: block;
+  padding-left: 3px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+#change-status:hover {
+  background: #f0f2f5;
+  text-decoration: none;
+}
+
 #name-status {
-  padding: 10px 15px 10px 15px;
+  padding: 10px 15px 0px 15px;
   margin: 0;
 }
 

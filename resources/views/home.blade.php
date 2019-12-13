@@ -59,6 +59,9 @@
             <span id="name">Илья Петров</span>
             <span id="status">Online</span>
           </div>
+          <a id="change-status" href="#">
+            изменить статус
+          </a>
         </div>
       </div>
     </div>
