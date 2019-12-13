@@ -14,8 +14,22 @@ html {
   position: relative;
 }
 
+#friend-list-header {
+  background: #fafbfc;
+  min-width: 200px;
+  min-height: 60px;
+  border-radius: inherit;
+}
+
+#friend-list {
+  min-height: 500px;
+  min-width: 200px;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #e3e4e8;
+}
+
 #personal-info {
-  padding: 20px 15px 0px 15px;
   font-size: 0.9rem;
   margin: 0;
 }
@@ -29,14 +43,11 @@ html {
 }
 
 #per-info {
-  #color: #9393af;
   color: #9393af;
 }
 
 #education {
-  padding: 20px 15px 0px 15px;
   font-size: 0.9rem;
-  margin: 0;
 }
 
 #edu-line {
@@ -60,7 +71,6 @@ html {
 }
 
 #birthday {
-  padding: 0px 15px 0px 15px;
   font-size: 0.9rem;
   margin: 0;
 }
@@ -73,9 +83,6 @@ html {
   font-size: 0.9rem;
   color: #9393af;
   display: block;
-  padding-left: 3px;
-  margin-left: 12px;
-  margin-right: 12px;
 }
 
 #change-status:hover {

@@ -18,15 +18,19 @@
     </div>
     <div class="col-7">
       <div id="personal-data">
-        <div id="name-status" class="d-flex justify-content-between">
+        <div id="name-status" class="d-flex justify-content-between
+                                     align-items-center container">
           <span id="name">Илья Петров</span>
           <span id="status">Online</span>
         </div>
-        <a id="change-status" href="#">
-          изменить статус
-        </a>
+        <div class="container">
+          <a id="change-status" href="#">
+            изменить статус
+          </a>
+        </div>
         <hr id="horizontal-line" />
-        <div id="birthday" class="d-flex justify-content-between">
+        <div id="birthday" class="d-flex justify-content-between
+                                  align-items-center container">
           <span id="birth-line">
             День рождения:
           </span>
@@ -40,7 +44,8 @@
           </span>
         </div>
         <div id="education">
-          <div class="d-flex justify-content-between">
+          <div class="d-flex justify-content-between
+                      align-items-center container">
             <span id="edu-line">
               Образование
             </span>
@@ -48,13 +53,14 @@
               Редактировать
             </a>
           </div>
-          <hr />
+          <hr id="horizontal-line" />
           <span id="edu-info" class="d-flex justify-content-center">
             Информация отсутствует
           </span>
         </div>
         <div id="personal-info">
-          <div class="d-flex justify-content-between">
+          <div class="d-flex justify-content-between
+                      align-items-center container">
             <span id="per-line">
               Личная информация
             </span>
@@ -62,7 +68,7 @@
               Редактировать
             </a>
           </div>
-          <hr />
+          <hr id="horizontal-line" />
           <span id="per-info" class="d-flex justify-content-center">
             Информация отсутствует
           </span>
