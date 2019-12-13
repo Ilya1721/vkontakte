@@ -55,7 +55,10 @@
       </div>
       <div class="col-6">
         <div id="personal-data">
-
+          <div id="name-status">
+            <span id="name">Илья Петров</span>
+            <span id="status">Online</span>
+          </div>
         </div>
       </div>
     </div>
