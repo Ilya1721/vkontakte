@@ -11,7 +11,12 @@
     </a>
   </li>
   <li class="nav-item d-block">
-    <a href="/friends">
+    <a href="/message">
+      Сообщения
+    </a>
+  </li>
+  <li class="nav-item d-block">
+    <a href="/friend">
       Друзья
     </a>
   </li>
