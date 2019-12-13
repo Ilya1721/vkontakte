@@ -63,6 +63,19 @@
             изменить статус
           </a>
           <hr id="horizontal-line" />
+          <div id="birthday">
+            <span id="line">
+              День рождения:
+            </span>
+            <span id="data-div">
+              <a id="data" href="#">
+                10 августа
+              </a>
+              <a id="data" href="#">
+                1999г.
+              </a>
+            </span>
+          </div>
         </div>
       </div>
     </div>
