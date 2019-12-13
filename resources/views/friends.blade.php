@@ -17,6 +17,10 @@
             Расширенный поиск
           </a>
         </div>
+        <form action="/friends/search" method="post">
+          <input id="friend-search-input" name="friends" class="form-control"
+           type="text" placeholder="Поиск участников" />
+        </form>
       </div>
     </div>
     <div class="col-3">

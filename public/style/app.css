@@ -14,6 +14,12 @@ html {
   position: relative;
 }
 
+#friend-search-input {
+  border-radius: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
 #friend-search-link {
   color: #28548b;
   font-size: 0.9rem;
