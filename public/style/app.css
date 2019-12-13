@@ -14,6 +14,22 @@ html {
   position: relative;
 }
 
+#send-date {
+  font-size: 0.9rem;
+  color: #9da3ad;
+}
+
+#sender-name {
+  color: #28548b;
+}
+
+#sender-img {
+  float:left;
+  border-radius: 100%;
+  width: 55px;
+  height: 55px;
+}
+
 #message-list {
   min-height: 600px;
   min-width: 250px;

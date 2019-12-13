@@ -9,11 +9,23 @@
       <div id="message-list">
         <form action="/friends/search" method="post">
           <input id="friend-search-input" name="friends" class="form-control"
-           type="text" placeholder="Поиск участников" />
+           type="text" placeholder="Поиск сообщений" />
         </form>
         @for($i = 0; $i < 5; $i++)
         <div class="row my-3 mx-2">
-          
+          <div id="message" class="container">
+            <a href="#">
+              <img id="sender-img" src="https://sun6-19.userapi.com/c836332/v836332139/2e2e0/RNYjGOkSsyw.jpg?ava=1" />
+            </a>
+            <div class="d-flex pl-3 flex-row justify-content-between">
+              <a id="sender-name" href="#">
+                Ирада Хайт
+              </a>
+              <span id="send-date">
+                вчера
+              </span>
+            </div>
+          </div>
         </div>
         @endfor
       </div>
