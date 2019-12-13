@@ -14,6 +14,47 @@ html {
   position: relative;
 }
 
+#personal-info {
+  padding: 20px 15px 0px 15px;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+#per-line {
+  color: #000;
+}
+
+#per-edit {
+  margin-left: 174px;
+  color: #28548b;
+}
+
+#per-info {
+  #color: #9393af;
+  margin-left: 125px;
+  color: #9393af;
+}
+
+#education {
+  padding: 20px 15px 0px 15px;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+#edu-line {
+  color: #000;
+}
+
+#edu-info {
+  color: #9393af;
+  margin-left: 125px;
+}
+
+#edu-edit {
+  margin-left: 220px;
+  color: #28548b;
+}
+
 #data-div {
   margin-left: 30px;
 }
@@ -22,7 +63,7 @@ html {
   color: #28548b;
 }
 
-#line {
+#birth-line {
   color: #9393af;
 }
 
@@ -78,7 +119,7 @@ html {
 
 #personal-data {
   width: 450px;
-  height: 150px;
+  height: 350px;
   background: #fff;
   border: 1px solid #e3e4e8;
   border-radius: 5px;

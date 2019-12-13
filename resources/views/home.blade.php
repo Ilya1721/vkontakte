@@ -64,7 +64,7 @@
           </a>
           <hr id="horizontal-line" />
           <div id="birthday">
-            <span id="line">
+            <span id="birth-line">
               День рождения:
             </span>
             <span id="data-div">
@@ -74,6 +74,30 @@
               <a id="data" href="#">
                 1999г.
               </a>
+            </span>
+          </div>
+          <div id="education">
+            <span id="edu-line">
+              Образование
+            </span>
+            <a id="edu-edit" href="#">
+              Редактировать
+            </a>
+            <hr />
+            <span id="edu-info">
+              Информация отсутствует
+            </span>
+          </div>
+          <div id="personal-info">
+            <span id="per-line">
+              Личная информация
+            </span>
+            <a id="per-edit" href="#">
+              Редактировать
+            </a>
+            <hr />
+            <span id="per-info">
+              Информация отсутствует
             </span>
           </div>
         </div>
